@@ -21,7 +21,7 @@ export class EntryListComponent implements OnInit {
   }
 
   getRecords(){
-    let endpoint = 'http://172.16.147.115:5000/Images';
+    let endpoint = 'http://52.25.119.213:5000/Images';
     this.httpClient
       .get(endpoint)
       .subscribe(

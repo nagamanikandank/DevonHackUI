@@ -26,7 +26,7 @@ export class EventDetailsComponent implements OnInit {
     });
   }
   set_values(){
-    let endpoint = 'http://172.16.147.115:5000/Drillbit?filename='+this.route_value.split('.JPG')[0];
+    let endpoint = 'http://52.25.119.213:5000/Drillbit?filename='+this.route_value.split('.JPG')[0];
     this.httpClient
       .get(endpoint)
       .subscribe(
